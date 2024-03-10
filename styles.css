@@ -194,7 +194,7 @@ body {
 
 .continue-btn:hover {
     cursor: pointer;
-    scale: 1.1;
+    background: linear-gradient(#4734f0, #4a23cb);
 }
 
 @media (max-width: 767px) {
