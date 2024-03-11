@@ -60,6 +60,32 @@ console.table(data);
 // using console.table shows data in a better readable format than .log
 ```
 
+To set ranges for switch-cases:
+```js
+const evaluation = average => {
+    // Evaluation based on average
+    switch (true) {
+        case (average <= 24):
+            spanEval.textContent = "Bad";
+            break;
+        case (average >= 25 && average <= 49):
+            spanEval.textContent = "Average";
+            break;
+        case (average >= 50 && average <= 69):
+            spanEval.textContent = "Above Average";
+            break;
+        case (average >= 70 && average <= 89):
+            spanEval.textContent = "Great";
+            break;
+         case (average >= 90 && average <= 100):
+            spanEval.textContent = "Excellent";
+            break;
+          default:
+            spanEval.textContent = "Error";
+    }
+}
+```
+
 ### Continued development
 
 In the upcoming projects I want to use more JavaScript again.
